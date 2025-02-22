@@ -2,15 +2,48 @@ baseURL = 'https://symphony09.github.io/ograph-docs/'
 languageCode = 'en-us'
 title = 'OGraph'
 
+[languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Project Documentation'
+    weight = 2
+
+[languages.zh]
+    contentDir = 'content/zh'
+    disabled = false
+    languageCode = 'zh'
+    languageDirection = 'ltr'
+    languageName = 'Chinese'
+    title = 'Project Documentation'
+    weight = 2
+
 [[menu.primary]]
     name  = "Documents"
     url = "/docs/"
     identifier = "docs"
     weight = 10
 
+[params]
+    # Google Fonts
+    google_fonts = [
+        ["Inter", "300, 400, 600, 700"],
+        ["Fira Code", "500, 700"]
+    ]
+
+    sans_serif_font = "Inter"     # Default is System font
+    secondary_font  = "Inter"     # Default is System font
+    mono_font       = "Fira Code" # Default is System font
+
 [params.docs]
     darkMode = true
     titleIcon = true
+    sidebarIcons = true
+    descriptions = true
+    navDesc = true
+    prism = true
 
 [params.social]
     github = "symphony09/ograph"
