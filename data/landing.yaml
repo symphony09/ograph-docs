@@ -17,13 +17,13 @@ hero:
       # mobile: "gradient-mobile.webp"
 
   badge:
-    text: v0.1.0
+    text: v0.7.0
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
 
   title: "OGraph"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
+  subtitle: A **modern**, **DAG-based** multi-task scheduling framework for **parallel computing** or **executing workflows**. It offers the **simplicity and flexibility** of Go, combined with the **speed** of C++.
 
   # image:
   #   path: "images" # path to image under configured assets directory. default 'images'
@@ -35,7 +35,7 @@ hero:
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "overview.png" # filename of your hero image (including file extension)
-    alt: "Lotus Docs Screenshot" # Optional but recommended
+    alt: "OGraph overview" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
@@ -46,10 +46,42 @@ hero:
   cta2Button:
     icon: construction
     btnText: "In Development"
-    url: "https://github.com/colinwilson/lotusdocs"
+    url: "https://github.com/symphony09/ograph"
 
   info: "**Open Source** MIT Licensed."
 
-# landing.yaml
-image_compare:
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why choose OGraph?
+  subtitle: OGraph is a DAG scheduling framework tailored for gophers, leveraging the scheduling capabilities of Go coroutines. While remaining simple, it delivers high performance and powerful features.
+
+  items:
+    - title: Fast
+      icon: speed
+      description: Outperforms other Go frameworks by 10 times.For general task flows with less than 64 nodes, the scheduling cost is under 10 microseconds.
+
+    - title: Friendly
+      icon: handshake
+      description: Includes powerful and versatile nodes and wrappers, ready to use upon opening the box. It also comes with rich documentation and examples to help you get started.
+
+    - title: Rich features
+      icon: palette
+      description: In addition to basic features, it also supports graph import and export, pause, transactions, event listening, priority scheduling, and performance analysis...
+
+    - title: Highly customizable
+      icon: settings
+      description: Key components are abstracted as interfaces, which allows you to replace the default implementations provided by the framework with your own implementations in special scenarios.
+
+    - title: Easy to scale
+      icon: open_with
+      description: Thanks to Go's scheduling mechanism, you can fully utilize resources under different hardware resources without the need for tuning.
+
+    - title: Stability
+      icon: change_history
+      description: Minimal third-party dependencies, carefully designed new features. Stability is one of the important goals of ograph.
+
+imageCompare:
   enable: false

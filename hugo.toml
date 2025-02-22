@@ -13,7 +13,7 @@ title = 'OGraph'
     titleIcon = true
 
 [params.social]
-    github = "symphony09"
+    github = "symphony09/ograph"
 
 [module]
     [[module.imports]]
