@@ -44,6 +44,7 @@ title = 'OGraph'
     descriptions = true
     navDesc = true
     prism = true
+    intLinkTooltip = true
 
 [params.social]
     github = "symphony09/ograph"
