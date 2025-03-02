@@ -213,6 +213,8 @@ func (printer *Printer) Run(ctx context.Context, state ogcore.State) error {
 }
 ```
 
+The code involves the use of `State`, please refer to [State](./features/state.md) for related documentation.
+
 **Use node in element**
 ```go
 n1 := ograph.NewElement("N1").UseNode(&Printer{})
