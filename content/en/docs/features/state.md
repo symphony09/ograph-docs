@@ -1,7 +1,7 @@
 ---
 weight: 201
 title: "State"
-description: ""
+description: "A guide to the state feature."
 icon: "article"
 date: "2025-02-26T21:14:03+08:00"
 lastmod: "2025-02-26T21:14:03+08:00"

@@ -1,8 +1,8 @@
 ---
-weight: 999
-title: "State"
-description: ""
-icon: "article"
+weight: 201
+title: "共享状态"
+description: "关于共享状态特性的指南"
+icon: "auto_awesome"
 date: "2025-03-02T15:47:27+08:00"
 lastmod: "2025-03-02T15:47:27+08:00"
 draft: false
