@@ -17,8 +17,8 @@ contentDir = 'content/zh'
 disabled = false
 languageCode = 'zh'
 languageDirection = 'ltr'
-languageName = 'Chinese'
-title = 'OGraph Docs'
+languageName = '简体中文'
+title = 'OGraph文档'
 weight = 2
 
 [[menu.primary]]
