@@ -26,14 +26,14 @@ Go 协程背后本身就具有一个复杂精巧的调度系统，建立在 go �
 简单归纳 OGraph 的优势有以下几点：
 
 {{< table "table-striped" >}}
-|                       |                                                                                                                                                                                    |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Fast`                | Outperforms other Go frameworks by 10 times.For general task flows with less than 64 nodes, the scheduling cost is under 10 microseconds.                                          |
-| `Friendly`            | Includes powerful and versatile nodes and wrappers, ready to use upon opening the box. It also comes with rich documentation and examples to help you get started.                 |
-| `Rich features`       | In addition to basic features, it also supports graph import and export, pause, transactions, event listening, priority scheduling, and performance analysis...                    |
-| `Highly customizable` | Key components are abstracted as interfaces, which allows you to replace the default implementations provided by the framework with your own implementations in special scenarios. |
-| `Easy to scale`       | Thanks to Go's scheduling mechanism, you can fully utilize resources under different hardware resources without the need for tuning.                                               |
-| `Stability`           | Minimal third-party dependencies, carefully designed new features. Stability is one of the important goals of ograph.                                                              |
+|              |                                                                                           |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| `快速`       | O性能超越其他 Go 框架 10 倍。对于节点少于 64 的一般任务流，调度成本低于 10 微秒。         |
+| `友好`       | 包含强大且多用途的节点和包装器，开箱即用。它还附带了丰富的文档和示例来帮助你快速上手。    |
+| `丰富特性`   | 除了基本功能外，还支持图导入和导出、暂停、事务、事件监听、优先级调度以及性能分析等功能... |
+| `高度可定制` | 关键组件被抽象为接口，在特殊场景下你可以用自己实现来替换框架提供的默认实现。              |
+| `易于伸缩`   | 得益于 Go 的调度机制，你可以在不同的硬件资源条件下充分利用资源而无需进行调优。            |
+| `Stability`  | 最小化第三方依赖，精心设计新特性。稳定性是 ograph 的重要目标之一。                        |
 {{< /table >}}
 
 ## 架构
